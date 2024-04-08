@@ -77,4 +77,8 @@ export class CarsService {
 
     }
 
+    fillCarsWithSeeData(cars: Car[]) {
+        this.cars = cars;
+    }
+
 }
